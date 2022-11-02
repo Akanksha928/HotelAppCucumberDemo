@@ -33,6 +33,7 @@ public class Test_Steps {
 		driver.get("http://adactinhotelapp.com");
 		driver.manage().window().maximize();
 		loginPg = new LoginPage(driver);
+		System.out.println("In the hotel app homepage.");
 
 	}
 
