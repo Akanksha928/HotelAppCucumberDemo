@@ -44,6 +44,7 @@ public class Test_Steps {
 //		uname.sendKeys("akanksha28");
 //		loginPg = new LoginPage(driver);
 		loginPg.enterUsername("akanksha28");
+		System.out.println("In user enters username.");
 	}
 
 	@When("User enters Password")
