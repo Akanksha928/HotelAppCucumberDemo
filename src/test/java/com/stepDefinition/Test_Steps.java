@@ -52,6 +52,7 @@ public class Test_Steps {
 //		driver.findElement(By.name("password")).clear();
 //		driver.findElement(By.name("password")).sendKeys("akanksha");
 		loginPg.enterPassword("akanksha");
+		System.out.println("In user enters password.");
 	}
 
 	@When("User clicks on login button")
